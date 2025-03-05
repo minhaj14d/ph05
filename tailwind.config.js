@@ -6,7 +6,7 @@ const completeButtons = document.querySelectorAll('.completed');
 
       this.classList.remove('bg-blue-800');
       this.classList.add('bg-gray-500', 'cursor-not-allowed');
-      this.textContent = 'Completed ✔';
+      this.textContent = 'Completed';
       this.disabled = true;
 
       alert(`Board updated successfully!`);
